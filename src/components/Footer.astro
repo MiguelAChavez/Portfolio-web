@@ -1,0 +1,44 @@
+<footer>
+    <div class="footer-content">
+        <p>&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="/about">About</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/blog">Blog</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+
+<style>
+    footer {
+        padding: 20px;
+        background-color: #f8f9fa;
+        text-align: center;
+    }
+
+    .footer-content {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #007bff;
+        transition: color 0.2s;
+    }
+
+    nav a:hover {
+        color: #0056b3;
+    }
+</style>
+---

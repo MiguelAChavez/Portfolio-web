@@ -1,0 +1,35 @@
+/* Header styles for the portfolio project */
+
+header {
+    background-color: #ffffff;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 24px;
+    color: #111827;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #111827;
+    padding: 8px 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #3245ff;
+}
+
+.nav-links {
+    display: flex;
+    gap: 16px;
+}
